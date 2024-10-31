@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.calculator {
+width: 250px;
+background-color: #000;
+padding: 20px;
+border-radius: 10px;
+margin-left: 35px;
+margin-top: 20px;
+height: 550px;
+box-shadow: 0 5px 5px black,
+            0 6px 6px black;
+}
+input[type=text] {
+width: 240px;
+    height: 60px;
+    border-radius: 5px;
+    border: 0px;
+    background: linear-gradient(to top left, #ffc700, #ff5415);
+    color: #fff;
+    font-weight: bold;
+    padding: 0 5px 0 5px;
+    margin: 0 0px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid orange;
+    
+}
+.calc-buttons {
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+.button {
+   margin: 3px;
+width: 63px;
+border: none;
+height: 30px;
+border-radius: 4px;
+color: #000000;
+cursor: pointer;
+}
+button:hover {
+  background-color: hsla(180, 100%, 40%, 0.3);
+  transition: .2s;
+}
+.functions-one {
+    width: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.functions-two {
+width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.triggers {
+    background-color: #ff5415;
+}
+.numbers {
+    background-color: #999999;
+}
+.basic-stuff {
+    background-color: #15cbff;
+}
+
+.complex-stuff {
+    background-color: #ffc700;
+}
+
+.dec1 {
+    height: 177px;
+    background: #80d4ff;
+    width: 15px;
+    border-radius: 5px;
+    margin-top: -177px;
+}
+
+.dec2 {
+    height: 177px;
+    background: #80d4ff;
+    width: 15px;
+    border-radius: 5px;
+    margin-top: -177px;    
+    margin-left: 200px;
+}
+
+.headerx {
+    color: black;
+    background: linear-gradient(to top left, #ff5415, #ffc700);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.hr1 {
+    background: black;
+    height: 3px;
+    border: none;
+}
+
+.author {
+    color: white;
+    text-align: center;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    background: #ffc700;
+    margin-top: 27px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 277px;
+}
